@@ -1,16 +1,21 @@
 {
-  "name": "SimplifiedPostgres",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.9.0",
-  "devDependencies": {
-    "typescript": "^5.9.2"
-  }
+    "name": "SimplifiedPostgres",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "packageManager": "pnpm@10.9.0",
+    "devDependencies": {
+        "typescript": "^5.9.2"
+    },
+    "dependencies": {
+        "@types/pg": "^8.15.5",
+        "pg": "^8.16.3"
+    }
 }
