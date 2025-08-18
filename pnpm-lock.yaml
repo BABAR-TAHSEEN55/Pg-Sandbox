@@ -11,6 +11,9 @@ importers:
       '@types/pg':
         specifier: ^8.15.5
         version: 8.15.5
+      dotenv:
+        specifier: ^17.2.1
+        version: 17.2.1
       pg:
         specifier: ^8.16.3
         version: 8.16.3
@@ -26,6 +29,10 @@ packages:
 
   '@types/pg@8.15.5':
     resolution: {integrity: sha512-LF7lF6zWEKxuT3/OR8wAZGzkg4ENGXFNyiV/JeOt9z5B+0ZVwbql9McqX5c/WStFq1GaGso7H1AzP/qSzmlCKQ==}
+
+  dotenv@17.2.1:
+    resolution: {integrity: sha512-kQhDYKZecqnM0fCnzI5eIv5L4cAe/iRI+HqMbO/hbRdTAeXDG+M9FjipUxNfbARuEg4iHIbhnhs78BCHNbSxEQ==}
+    engines: {node: '>=12'}
 
   pg-cloudflare@1.2.7:
     resolution: {integrity: sha512-YgCtzMH0ptvZJslLM1ffsY4EuGaU0cx4XSdXLRFae8bPP4dS5xL1tNB3k2o/N64cHJpwU7dxKli/nZ2lUa5fLg==}
@@ -104,6 +111,8 @@ snapshots:
       '@types/node': 24.2.1
       pg-protocol: 1.10.3
       pg-types: 2.2.0
+
+  dotenv@17.2.1: {}
 
   pg-cloudflare@1.2.7:
     optional: true
